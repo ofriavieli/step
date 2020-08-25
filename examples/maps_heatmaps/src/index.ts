@@ -641,7 +641,7 @@ function addNewImage(label:string,lat: number, lng:number, year: number, month: 
         let lng = coordinates.longitude;
         allpoints.push(new google.maps.LatLng(lat, lng))
     });
-    heatmap.setData(allpoints);
+    heatmap.setData(allpoints); 
 })
 }
 
